@@ -378,7 +378,14 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             Home network segmentation
-                            <ul>Created multiple segments and implemented access controls on the router:
+                            <ul>Network segmentation not only increases network performance but is also a crucial measure for an effective
+                                cybersecurity posture. In response to NSA bulletin, Best Practices for Securing Your Home Network, 
+                                purchased the Ubiquity ER-X and Ubiquity U6-Pro to implement the following guidelines, Ubiquiti_Home_Network. 
+                                Additionally, implemented three access switches and wrote an interface ACL for server traffic filtering. 
+                                Created documentation for initial implementation steps, network topology, asset inventory, access control 
+                                methods, and frequent management tasks. My sincere hope is to be able to perform similar tasks to safe-guard 
+                                security conscious home users and give them granular control over their network communications. The following, 
+                                is a list of the network segments that were created::
                               <li class="project-sub-list">Wired home network</li>
                               <li class="project-sub-list">Wired IoT network</li>
                               <li class="project-sub-list">Wired isolated network</li>
@@ -387,21 +394,30 @@
                               <li class="project-sub-list">Guest WiFi</li>
                             </ul>
                         </li>
+                        
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             Wiring a work-from-home shed
-                        <p class="sublist">Ran an underground ethernet cable through pvc for uplink and terminated to punchdown</p>
-                        <p class="sublist">Pulled electrical from utility box and run it underground to the structure</p>
-                        <p class="sublist">Ran all electrical in metal conduit</p>
+                        <p class="sublist">Ran two underground cat6 Ethernet cables through a buried one inch PVC conduit for uplink and 
+                            terminated to punchdown block. Ran six Ethernet cables to wall mounted faceplates and labeled accordingly. 
+                            Pulled electrical 240v 30 amp connection from utility box and run it underground to the structure. Ran all 
+                            indoor electrical wiring in metal conduit.</p>
                         </li>
+                        
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             VPN server
-                            <p class="sublist">Installed PiVPN on a raspberry pi and connected clients with OpenVPN</p>
+                            <p class="sublist">Installed PiVPN on a raspberry pi and connected clients with OpenVPN connect v3.4.4.3412 
+                                for windows and command line client for Ubuntu, using symmetric key encryption and certificates. 
+                                Deployed the server in ISP DMZ and created a port forwarding rule to allow external connection on custom port.</p>
                         </li>
+                        
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Install multiple IP based security cameras for home use
+                            Design, test, and analyze network file transfer using free open source software
+                            <p class="sublist">Appliances will run Ubuntu Server and utilize Rsync for file synchronization. Once the system is 
+                                successfully implemented across multiple network segments utilizing VyOS 1.2.9 routers, a security scan will be 
+                                performed to generate metrics for comparison against the live process system.</p>
                         </li>
                     </ul>
                 </div>
