@@ -11013,6 +11013,10 @@ section.resume-section .resume-section-content {
   margin-top: 1.5rem !important;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 
 .gallery {
   display: flex;
